@@ -27,3 +27,8 @@
     border-radius: 4px;
     background-color: #01996D;
 }
+
+button + .button {
+    width: 183px;
+    height: 51px;
+}
