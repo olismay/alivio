@@ -14,3 +14,16 @@
 .number + .subheading {
     color: plum;
 }
+
+.button {
+    display: block;
+    font-size: 20px;
+    line-height: 25px;
+    color: #fff;
+    text-decoration: none;
+    width: 227px;
+    height: 65px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #01996D;
+}
