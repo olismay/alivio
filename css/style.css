@@ -11,6 +11,14 @@ ul, ol {
     padding: 0;
 }
 
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+
 @font-face {
     font-family: "lato";
     src: url("Lato-Regular.woff2") format("woff2"),
@@ -59,6 +67,13 @@ ul, ol {
     font-style: normal;
     font-weight: 700;
     font-display: swap;
+}
+
+.intro {
+    min-height: 895px;
+    width: 100%;
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
 }
 
 .link {
@@ -159,18 +174,3 @@ button + .button {
     color: #AFACAB;
 }
 
-.link-item:nth-child(3) {
-    background-color: aquamarine;
-}
-
-.link-item:first-child {
-    background-color: tomato;
-}
-
-.link-item:last-child {
-    background-color: brown;
-}
-
-.item:nth-child(2) .description:first-of-type {
-    color: blueviolet;
-}
